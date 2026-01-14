@@ -15,3 +15,356 @@
 body {
     background-color: #FFFFFF;
 }
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+ul {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+#head h2 {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo-icon img {
+    width: 36px;
+}
+#menu {
+    display: none;
+}
+
+/* hero section code hare  */
+#hero {
+    margin-bottom: 50px;
+}
+.hero-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-contant h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #3A3A3A;
+    line-height: 70px;
+    /* margin: 15px;  */
+    padding: 15px 0;
+}
+.hero-contant p {
+    color: #3A3A3A;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.hero-btn button {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 50px;
+}
+.hero-img img {
+    width: 440px;
+    /* background-image: url(images/Circle\ design.svg);  */
+    margin-right: 50px;
+}
+/* visa card section code hare  */
+#visa-card {
+    margin-bottom: 50px;
+}
+.visa-card-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+    border-top: 1px solid rgb(240, 232, 232);
+    border-bottom: 1px solid rgb(240, 232, 232);
+}
+.visa-card img {
+    width: 99px;
+}
+#paper {
+    margin-bottom: 50px;
+}
+#paper h5 {
+    color: #3A3A3A;
+    text-align: center;
+    margin: 30px 0;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 72px;
+
+}
+.paper-p {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.paper-box img {
+    width: 300px;
+    height: 256px;
+}
+.paper-box {
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 5px grey;
+    padding: 20px;
+    width: 330px;
+    border-radius: 10px
+    
+}
+.paper-icon i {
+    color: #FB8200;
+}
+.see p {
+    color: red;
+    text-align: end;
+    margin-right: 85px;
+    padding: 50px 0;
+    font-weight: bold;
+   
+   
+}
+/* feature sectiopn code hare  */
+#feature {
+    margin-bottom: 50px;
+}
+.feature-p {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.feature-p img {
+    width: 400px;
+}
+.feature-contant h2 {
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.feature-contant p {
+    color: #3A3A3A;
+    padding-bottom: 15px;
+    font-weight: bold;
+    line-height: 28px;
+}
+/* foter section code hare  */
+#foter {
+    padding: 50px 0;
+    background-color: #0A0826;  
+}
+.foter-contant {
+    text-align: center;
+}
+.foter-contant h2 {
+    color: #FFFFFF;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.foter-contant p{
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.foter-icon i {
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 17px;
+    width: 45px;
+    padding-top: 15px;
+    height: 45px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #333333;
+}
+
+
+
+
+/* responsive desing  */
+
+
+@media screen and (min-width:578px) and (max-width:992px){
+        .container-1 {
+    width: 96%;
+    margin: 0 auto;
+}
+#head h2 {
+    text-align: center;
+    font-size: 18px;
+}
+#menu {
+    display: block;
+    font-size: 30px;
+    margin-left: 10px;
+}
+ul {
+    display: none;
+}
+.logo-icon img {
+    margin-right: 10px;
+    width: 36px;
+}
+.hero-p {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.hero-contant {
+    text-align: center;
+}
+.hero-img img {
+    width: 440px;
+    background-image: url(images/Circle\ design.svg);
+    margin-right: 1px;
+}
+.visa-card-p {
+    width: 100%;
+    flex-wrap: wrap;
+     justify-content: center;
+    align-items: center;
+}
+.paper-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.paper-box img {
+    width: 100%;
+}
+.paper-box {
+    width: 100%;
+}
+.feature-p {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width:577px){
+    .container-1 {
+    width: 98%;
+    margin: 0 auto;
+}
+#head h2 {
+    text-align: center;
+    font-size: 18px;
+}
+#menu {
+    display: block;
+    font-size: 25px;
+    margin-left: 5px;
+}
+ul {
+    display: none;
+}
+.logo-icon img {
+    margin-right: 5px;
+    width: 30px;
+}
+.hero-p {
+    /* flex-direction: column;  */
+   flex-direction: column-reverse;
+    gap: 50px;
+}
+.hero-contant {
+    text-align: center;
+}
+.hero-contant h1 {
+    font-size: 30px;
+}
+.hero-contant p {
+    font-size: 15px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.hero-img img {
+    width: 100%;
+    /* background-image: url(images/Circle\ design.svg);  */
+    margin-right: 1px;
+}
+.visa-card-p {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    gap: 40px;
+    border-top: none;
+    border-bottom: none;
+}
+.paper-p {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+}
+.paper-box {
+    width: 100%;
+}
+.paper-box img {
+    width: 100%;
+}
+.see p {
+    color: red;
+    text-align: end;
+    margin-right: 10px;
+    padding: 20px 0;
+    font-weight: bold;
+   
+   
+}
+.feature-p {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.feature-contant {
+    text-align: center;
+}
+.feature-p img {
+    width: 300px;
+}
+.feature-contant h2 {
+    font-size: 30px;
+}
+.feature-contant p {
+    color: #3A3A3A;
+    padding-bottom: 14px;
+    font-weight: bold;
+    line-height: 28px;
+}
+#foter {
+    padding: 20px 0;
+    background-color: #0A0826;  
+}
+
+}
+
