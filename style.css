@@ -82,8 +82,10 @@ ul li a {
 }
 .hero-img img {
     width: 440px;
-    /* background-image: url(images/Circle\ design.svg);  */
-    margin-right: 50px;
+    background-image: url(images/Circle\ design.svg);  
+    margin-right: 50px;  
+    
+
 }
 /* visa card section code hare  */
 #visa-card {
@@ -308,8 +310,11 @@ ul {
 }
 .hero-img img {
     width: 100%;
-    /* background-image: url(images/Circle\ design.svg);  */
-    margin-right: 1px;
+    background-image: url(images/Circle\ design.svg);  
+    margin-right: 1px; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .visa-card-p {
     flex-wrap: wrap;
